@@ -1,0 +1,29 @@
+Bootstrap does offer its own set of breakpoints for its grid system and components, developers often customize these using additional media queries to fine-tune the responsiveness of their designs.
+
+
+This CSS code snippet demonstrates the use of media queries to apply different styles based on the width of the viewport. Media queries allow developers to create responsive designs, ensuring that web content looks good and is functional across a variety of devices and screen sizes.
+
+Let's break down the code and its purpose:
+
+1. **Media Query 1170px**:
+   - This media query targets screens with a maximum width of 1170px.
+   - It adjusts the maximum width of elements with the class `.section-subtitle` to 60%.
+   - It sets the height of elements with the class `.banner_section .carousel-item` to 90vh.
+
+2. **Media Query 991px**:
+   - This media query targets screens with a maximum width of 991px.
+   - It adjusts padding for elements with various classes such as `.bout .banner_section`, `.product .banner_section`, `.gallery .banner_section`, and `.contact .banner_section`.
+   - It modifies styles for elements within the `.header .navbar`, `.header .navbar-nav`, `.header .navbar-nav .nav-link`, and `.header .header_right span` classes.
+
+3. **Media Query 767px**:
+   - This media query targets screens with a maximum width of 767px.
+   - It sets the font size for `body` and `html` elements to 8px.
+   - It adjusts the maximum width of elements with the class `.section-subtitle` to 80%.
+   - It sets the minimum height of elements with the class `.banner_section` to 70vh.
+   - It sets the height of elements with the class `.banner_section .carousel-item` to 70vh.
+
+4. **Media Query 590px**:
+   - This media query targets screens with a maximum width of 590px.
+   - It sets the font size for `body` and `html` elements to 7px.
+
+The purpose of using media queries is to create a responsive design that adapts to different screen sizes. By applying different styles based on the viewport width, the CSS ensures that the website layout remains visually appealing and usable across a range of devices, from large desktop monitors to smaller mobile screens. For example, font sizes, padding, and element widths are adjusted to provide a better user experience on devices with narrower screens.
