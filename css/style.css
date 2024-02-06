@@ -593,7 +593,9 @@ About Page CSS
 .about .about-details p {
   color: var(--primary-text);
 }
-
+.banner-content h1{
+  margin-top: 15rem;
+}
 /* ===========================
 Contact Page CSS
 ============================== */
